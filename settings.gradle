@@ -12,3 +12,4 @@ plugins {
 
 rootProject.name = 'count-em-up-java-template'
 include('app')
+
