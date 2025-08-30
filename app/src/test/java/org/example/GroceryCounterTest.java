@@ -79,7 +79,7 @@ public class GroceryCounterTest {
 
         // Add one more expect overflow
         counter.ones();
-        assertEquals("$99.99", counter.total()); 
+        assertEquals("$1.00", counter.total()); 
         assertEquals(1, counter.overflows());
     }
 

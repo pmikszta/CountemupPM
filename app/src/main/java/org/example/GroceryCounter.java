@@ -38,6 +38,8 @@ public class GroceryCounter {
     private void addAmount(int addCents) {
         if (cents + addCents > 9999) { // 9999 cents = $99.99
             overflowCount++;
+            cents = 0;
+            cents += addCents;
         } else {
             cents += addCents;
         }
