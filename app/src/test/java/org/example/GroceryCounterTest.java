@@ -68,7 +68,7 @@ public class GroceryCounterTest {
     }
 
     @Test
-    void testOverflowDoesNotChangeTotal() {
+    void testOverflow() {
         // Max out value
         for (int i = 0; i < 9; i++) counter.tens(); 
         for (int i = 0; i < 9; i++) counter.ones(); 
